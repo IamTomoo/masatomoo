@@ -1,0 +1,104 @@
+.contacts {
+    border-radius: 10px;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.15); 
+    padding: 20px 20px 20px 20px;
+    background-color: #e8f9f6;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.profile-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-contact img {
+    transform: rotateZ(-5deg);
+    height: 350px;
+    width: 350px;
+}
+.contact-column {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgba(240, 255, 253, 0.7);
+    box-shadow: inset -3px 3px 10px rgba(0, 0, 0, 0.1);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contact-list-one p {
+    font-family: kanit;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 20px;
+}
+.contact-list h1 {
+    font-family: kanit;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contact-list-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+@media only screen and (max-width: 600px)
+{
+    .contacts {
+        border-radius: 10px;
+        box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.15); 
+        padding: 30px 30px 30px 30px;
+        background-color: #e8f9f6;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .profile-contact {
+        display: flex;
+        justify-content: center;
+    }
+    .profile-contact img {
+        transform: rotateZ(-5deg);
+        height: 300px;
+        width: 300px;
+    }
+    .contact-column {
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: rgba(240, 255, 253, 0.7);
+        box-shadow: inset -3px 3px 10px rgba(0, 0, 0, 0.1);
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .contact-list-one p {
+        font-family: kanit;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 0;
+        margin-left: 20px;
+    }
+    .contact-list h1 {
+        font-family: kanit;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .contact-list-one {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
