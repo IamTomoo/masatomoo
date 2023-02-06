@@ -1,0 +1,282 @@
+.section-text h5 {
+    font-family: Kanit;
+    color: #355C7D;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 190px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+.section-text-two h5 {
+    font-family: Kanit;
+    color: #355C7D;
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+.section-text {
+    width: 900px;
+    display: flex;
+    justify-content: start;
+}
+.section-text-two {
+    width: 900px;
+    display: flex;
+    justify-content: start;
+}
+.portrait-box img {
+    width: 300px;
+    transition: 0.15s;
+    border-radius: 10px;
+ 
+}
+.portrait-box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: row;
+    width: 390px
+}
+.art {
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+.art img:hover {
+    width: 370px;
+    box-shadow: -13px 13px 10px rgba(0, 0, 0, 0.1);
+	
+    transform: rotateZ(-2deg);
+}
+.featured-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.see-pricing {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: end;
+    width: 800px;
+
+}
+.see-pricing-text h3, a {
+    letter-spacing: 0.6px;
+    font-family: kanit;
+    font-weight: 300;
+    text-decoration: none;
+    color: #355C7D;
+
+
+}
+.portrait-box-container {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e8f9f6;
+    border-radius: 10px;
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.15);  
+}
+.featured-container {
+    position: relative;
+}
+.project-triangle-one {
+	position: absolute;
+	right: -45px;
+	top: 95px;
+	width: 50;
+	height: 50;
+	border-top: 40px solid transparent;
+	border-right: 90px solid #FF7582;
+	border-bottom: 40px solid transparent;
+	transform: rotate(-10deg);
+	opacity: 0.65;
+
+}
+.project-triangle {
+	position: absolute;
+	right: -30px;
+	top: 80px;
+	width: 50;
+	height: 50;
+	border-top: 40px solid transparent;
+	border-right: 90px solid #2f2f2f;
+	border-bottom: 40px solid transparent;
+	transform: rotate(-10deg);
+	opacity: 0.2;
+}
+.project-triangle-one-two {
+	position: absolute;
+	left: -45px;
+	bottom: 50px;
+	width: 50;
+	height: 50;
+	border-top: 40px solid transparent;
+	border-right: 90px solid #FF7582;
+	border-bottom: 40px solid transparent;
+	transform: rotate(190deg);
+	opacity: 0.65;
+
+}
+.project-triangle-two {
+	position: absolute;
+	left: -30px;
+	bottom: 65px;
+	width: 50;
+	height: 50;
+	border-top: 40px solid transparent;
+	border-right: 90px solid #2f2f2f;
+	border-bottom: 40px solid transparent;
+	transform: rotate(190deg);
+	opacity: 0.2;
+}
+
+
+
+@media only screen and (max-width: 900px)
+{
+    .section-text-container {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .section-text {
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .section-text-two {
+        width: 450px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .section-text-two h5 {
+        font-family: Kanit;
+        color: #355C7D;
+        font-weight: 700;
+        font-size: 50px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        line-height: 80px;
+        letter-spacing: 2px;
+        text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.2);
+    }
+    .section-text h5 {
+        font-family: Kanit;
+        color: #355C7D;
+        font-weight: 700;
+        font-size: 50px;
+        margin-bottom: 40px;
+        line-height: 80px;
+        letter-spacing: 2px;
+        text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.2);
+    }
+    .portrait-box-container {
+        align-items: center;
+        border-radius: 10px;
+        background-color: #e8f9f6;
+        box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.15);
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .portrait-box {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        flex-direction: column;
+        
+    }
+    .portrait-box img {
+        width: 400px;
+        transition: 0.15s;
+        border-radius: 10px;
+    }
+    .art {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+
+    }
+    .art img:hover {
+        width: 450px;
+        box-shadow: -13px 13px 10px rgba(0, 0, 0, 0.1);
+	    transform: rotateZ(-2deg);
+    }
+    .see-pricing {
+        align-items: center;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        width: 500px;
+    }
+    .featured-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .see-pricing-text h3, a {
+        font-family: kanit;
+        text-decoration: none;
+        color: #355C7D;
+
+    }
+    .project-triangle-one {
+        position: absolute;
+        right: -100px;
+        top: 95px;
+        width: 50;
+        height: 50;
+        border-top: 40px solid transparent;
+        border-right: 90px solid #FF7582;
+        border-bottom: 40px solid transparent;
+        transform: rotate(-10deg);
+        opacity: 0.65;
+    
+    }
+    .project-triangle {
+        position: absolute;
+        right: -90px;
+        top: 80px;
+        width: 50;
+        height: 50;
+        border-top: 40px solid transparent;
+        border-right: 90px solid #2f2f2f;
+        border-bottom: 40px solid transparent;
+        transform: rotate(-10deg);
+        opacity: 0.2;
+    }
+    .project-triangle-one-two {
+        position: absolute;
+        left: -95px;
+        bottom: 80px;
+        width: 50;
+        height: 50;
+        border-top: 40px solid transparent;
+        border-right: 90px solid #FF7582;
+        border-bottom: 40px solid transparent;
+        transform: rotate(190deg);
+        opacity: 0.65;
+    
+    }
+    .project-triangle-two {
+        position: absolute;
+        left: -90px;
+        bottom: 65px;
+        width: 50;
+        height: 50;
+        border-top: 40px solid transparent;
+        border-right: 90px solid #2f2f2f;
+        border-bottom: 40px solid transparent;
+        transform: rotate(190deg);
+        opacity: 0.2;
+    }
+}
